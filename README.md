@@ -3,10 +3,10 @@
 
 | Labs      |
 | :-------: |
-|[lab_1] ()      |
-|[lab_2] ()      |
-|[lab_3] ()      |
-|[lab_4] ()      |
-|[lab_5] ()      |
-|[lab_6] ()      |
-|[lab_7] ()      |
+|[lab_1] (Lab1\README.md)      |
+|[lab_2] (Lab2\README.md)      |
+|[lab_3] (Lab3\README.md)      |
+|[lab_4] (Lab4\README.md)      |
+|[lab_5] (Lab5\README.md)      |
+|[lab_6] (Lab6\README.md)      |
+|[lab_7] (Lab7\README.md)      |
