@@ -3,7 +3,7 @@
 
 | Labs      |
 | :-------: |
-|[lab_1] (https://github.com/leahmrdz/MataRodriguez-online-GEOG676-spring2025/blob/main/Lab1/README.md)      |
+|[lab_1] (Lab1\README.md)      |
 |[lab_2] (https://github.com/leahmrdz/MataRodriguez-online-GEOG676-spring2025/blob/main/Lab2/README.md)      |
 |[lab_3] (https://github.com/leahmrdz/MataRodriguez-online-GEOG676-spring2025/blob/main/Lab3/README.md)      |
 |[lab_4] (https://github.com/leahmrdz/MataRodriguez-online-GEOG676-spring2025/blob/main/Lab4/README.md)      |
