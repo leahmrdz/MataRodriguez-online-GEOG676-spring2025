@@ -20,7 +20,11 @@ print('Answer to question 2 is: ',answer)
 #Only add the even numbers together
 part3 = [146, 875, 911, 83, 81, 439, 44, 5, 46, 76, 61, 68, 1, 14, 38, 26, 21] 
 sum=0
+ # ^^^ Have to have a valid start to begin adding the numbers in the list
 for nums in part3:
     if nums % 2 == 0:
         sum = sum + nums
+# If the numbers in the list are divided by 2 and leave a quotient of zero,
+#Then only those numbers will be summed together
 print('The anser to question 3 is: ',sum)
+
