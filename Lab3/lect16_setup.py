@@ -1,8 +1,8 @@
 import arcpy
 
-#print(arcpy.ListEnvironments())
+print(arcpy.ListEnvironments())
 
-arcpy.env.workspace = "C:\MataRodriguez-online-GEOG676-spring2025\ArcGISPython"
+#arcpy.env.workspace = "C:\MataRodriguez-online-GEOG676-spring2025\ArcGISPython"
 
 
 
