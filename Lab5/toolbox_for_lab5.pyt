@@ -109,13 +109,14 @@ class GarageBuildingIntersections(object):
 
         #open the campus geodatabase, copy building features into OUR geodatabase
         campus = parameter[4].valueAsText
-        campus_buildings = campus + '\Structures'
+        campus_buildings = campus + '\\Structures'
         buildings = gdb_path + '\\' + 'Buildings' #adds the bulding features to the geodatabase
 
         arcpy.Copy_management(campus_buildings, buildings) #structures is in campus builing gdb, we need to copy that feature and it will be called buildings
 
         #Re-projection
-        spatial_ref = arcpy.Describe(buildings).SpatialReference #extracts the spatial reference from the buildings layer
+        desc= arcpy.Describe(buildings)
+        spatial_ref = desc.spatialReference #extracts the spatial reference from the buildings layer
         arcpy.management.Project(garage_points, gdb_path + '\Garage_Points_reprojected', spatial_ref) #the layer we're reprojecting, the name of the result
 
         #buffer the garages
