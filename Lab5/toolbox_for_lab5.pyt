@@ -6,8 +6,8 @@ class Toolbox(object):
     def __init__(self):
         """Define the toolbox (the name of the toolbox is the name of the
         .pyt file)."""
-        self.label = "Toolbox"
-        self.alias = ""
+        self.label = "GarageBuildingIntersections"
+        self.alias = "GarageBuildingIntersections"
 
         # List of tool classes associated with this toolbox
         self.tools = [GarageBuildingIntersections]
@@ -59,7 +59,7 @@ class GarageBuildingIntersections(object):
         param4 = arcpy.Parameter(
             displayName = "Campus GDB",
             name = "CampusGDB",
-            datatype = "DEType", #specify an existing gdb
+            datatype = "DEWorkspace", #specify an existing gdb
             parameterType = "Required",
             direction = "Input"
             )
@@ -115,8 +115,8 @@ class GarageBuildingIntersections(object):
         arcpy.Copy_management(campus_buildings, buildings) #structures is in campus builing gdb, we need to copy that feature and it will be called buildings
 
         #Re-projection
-        desc= arcpy.Describe(buildings)
-        spatial_ref = desc.spatialReference #extracts the spatial reference from the buildings layer
+        #desc= arcpy.Describe(buildings)
+        spatial_ref = arcpy.Describe(buildings).spatialReference #extracts the spatial reference from the buildings layer
         arcpy.management.Project(garage_points, gdb_path + '\Garage_Points_reprojected', spatial_ref) #the layer we're reprojecting, the name of the result
 
         #buffer the garages
