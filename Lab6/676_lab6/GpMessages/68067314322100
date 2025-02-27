@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Thursday, February 27, 2025 3:03:04 PM</msg><msg code="1" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\leahmrdz22\MataRodriguez-online-GEOG676-spring2025\Lab6\Leah_MapToolbox_complete.pyt", line 94, in execute
+﻿    arcpy.addMessage("Validating Project File...")
+﻿    ^^^^^^^^^^^^^^^^
+﻿AttributeError: module 'arcpy' has no attribute 'addMessage'
+</msg><msg code="-2147467259" type="100">Failed to execute (GraduatedColorsRenderer).</msg><msg code="0" type="3">Failed at Thursday, February 27, 2025 3:03:08 PM (Elapsed Time: 3.27 seconds)</msg></messages>

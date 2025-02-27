@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Thursday, February 27, 2025 2:57:29 PM</msg><msg code="1" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\leahmrdz22\MataRodriguez-online-GEOG676-spring2025\Lab6\Leah_MapToolbox_complete.pyt", line 91, in execute
+﻿    time.sleep(readTime) #pause time for 3 seconds so the user can read the message defined above
+﻿    ^^^^
+﻿NameError: name 'time' is not defined
+</msg><msg code="-2147467259" type="100">Failed to execute (GraduatedColorsRenderer).</msg><msg code="0" type="3">Failed at Thursday, February 27, 2025 2:57:29 PM (Elapsed Time: 0.54 seconds)</msg></messages>
